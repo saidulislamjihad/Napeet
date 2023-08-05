@@ -1,0 +1,122 @@
+.header-section {
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+} 
+
+.brand-logo-outer .brand {
+    max-width: 150px;
+}
+
+.nav-items-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    height: 80px;
+}
+
+.nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.item-has-submenu {
+    position: relative;
+}
+
+.submenu-list {
+    position: absolute;
+    top: 80px;
+    background: #333;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 5%);
+    width: 250px;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-top: 3px solid #f85c70;
+    z-index: 99;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+    
+}
+
+.nav-item-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-item-link i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.nav-item-link:hover {
+    color: #f85c70;
+}
+
+.submenu-list:before {
+    content: "";
+    top: -19px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    background: transparent;
+    border-left: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid #f85c70;
+    border-right: 8px solid transparent;
+}
+
+.nav-item.item-has-submenu:hover .submenu-list {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.submenu-list-item-link {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.submenu-list-item-link:before {
+    background: #f85c70;
+    width: 0;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s cubic-bezier(0.71, 0.52, 0, 1.13);
+    z-index: -1;
+}
+
+.submenu-list-item-link:hover::before {
+    width: 100%;
+    z-index: -1;
+}
+
+.submenu-list-item-link:hover {
+    color: #fff;
+}

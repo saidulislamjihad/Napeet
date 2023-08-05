@@ -1,0 +1,30 @@
+/*Counter section css start*/
+.counter-section {
+    padding: 40px 0;
+}
+
+.counter-item-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.counter-number {
+    font-size: 45px;
+    font-weight: 500;
+    color: #000;
+}
+
+.counter-title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #414342;
+    text-transform: capitalize;
+}
+
+.counter-section .col-lg-3.col-md-6:nth-child(even) {
+    margin-top: 30px;
+}
+/*Counter section css End*/
