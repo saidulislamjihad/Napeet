@@ -1,0 +1,78 @@
+/*Footer section css start*/
+.footer-section {
+    padding: 60px 0px;
+    background: #000;
+    background-image: url(/src/assets/images/pattern.png);
+    background-size: contain;
+    background-position: inherit;
+}
+
+.footer-item-outer .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-brand-outer {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-item-outer .text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #919090;
+    line-height: 26px;
+}
+
+.footer-item-outer .footer-list {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.footer-list-item-link {
+    display: inline-block;
+    color: #b2b3cf;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.footer-social-links {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-list-item-link i {
+    margin-right: 6px;
+    color: #f76175;
+}
+
+.footer-list-item-link:hover {
+    color: #f76175;
+}
+
+.footer-social-link-item a {
+    background: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 100%;
+    color: #000;
+    display: block;
+}
+
+.footer-social-link-item a i{
+    color: #f76175;
+}
+
+.footer-social-link-item {
+    margin-right: 8px;
+}
+
+.footer-social-link-item:hover a {
+    transform: rotate(360deg);
+}
+/*Footer section css End*/

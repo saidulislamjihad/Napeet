@@ -1,0 +1,55 @@
+.pricing-section {
+    background: url(/src/assets/images/precing-bg.webp);
+    padding: 40px 0;
+}
+
+.pricing-items-wrapper {
+    background: #fff;
+    padding: 40px;
+}
+
+.pricing-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(/src/assets/images/pricing-tab-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.pricing-image-outer {
+    margin-right: 10px;
+}
+
+.pricing-image-outer .pricing-img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.pricing-content-outer .pricing-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.pricing-content-outer .pricing-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.pricing-item-right .price {
+    font-size: 40px;
+    font-weight: 500;
+    color: #f85c70;
+    margin-bottom: 0;
+}

@@ -1,0 +1,30 @@
+.appointment-section {
+    background: #FBF6EE;
+    padding: 40px 0;
+}
+
+.appointment-form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: url(/src/assets/images/video-bg.webp);
+    padding: 60px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-group-wrap {
+    margin-bottom: 20px;
+}
+
+.input-group-wrap input,.input-group-wrap select {
+    height: 55px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-group-wrap textarea {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
